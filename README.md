@@ -10,10 +10,27 @@ pip install -r requirements.txt
 
 ### Process
 ```
-- Installed Python dependencies from `requirements.txt` using pip.
 ```
 
 ### Notes
 ```
-- Initial project setup is complete 9/18/2025
+```
+## Activity (2025-09-19)
+
+### Commands run
+```
+sqlite3 project.sqlite3
+sqlite3 project.sqlite3 < insert_records.sql
+```
+
+### Process
+```
+- Opened an interactive sqlite3 session against `project.sqlite3`.
+- Imported records from `insert_records.sql` into `project.sqlite3` using input redirection.
+```
+
+### Notes
+```
+- Database `project.sqlite3` now contains tables and records created from the provided SQL scripts `create_tables.sql` and `insert_records.sql`.
+- Viewer used: SQLTools
 ```
