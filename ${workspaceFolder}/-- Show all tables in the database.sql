@@ -1,18 +1,21 @@
--- Show all tables in the database
-SELECT name 
-FROM sqlite_master 
-WHERE type='table' AND name NOT LIKE 'sqlite_%';
+-- List all tables
+SELECT name
+FROM sqlite_master
+WHERE type='table' AND name NOT LIKE 'sqlite_%'
+ORDER BY name;
 
--- See the columns in Airlines
-PRAGMA table_info('Airlines');
+-- Show columns in each table
+PRAGMA table_info('airlines');
+PRAGMA table_info('crashes');
 
--- See the columns in Crashes
-PRAGMA table_info('Crashes');
+-- Sample rows
+SELECT * FROM airlines LIMIT 10;
+SELECT * FROM crashes  LIMIT 10;
 
--- Peek at some rows
-SELECT * FROM Airlines LIMIT 10;
-SELECT * FROM Crashes LIMIT 10;
+-- Row counts (combined into one result set)
+SELECT 'airlines' AS table_name, COUNT(*) AS row_count FROM airlines
+UNION ALL
+SELECT 'crashes'  AS table_name, COUNT(*)              FROM crashes;
 
--- Row counts
-SELECT 'Airlines' AS table_name, COUNT(*) AS row_count FROM Airlines;
-SELECT 'Crashes'  AS table_name, COUNT(*) AS row_count FROM Crashes;
+-- Check which database file is connected
+PRAGMA database_list;
