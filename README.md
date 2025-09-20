@@ -75,13 +75,13 @@ python3 db03_queries.py
 ### Query Aggregation and Filter
 ![Before/After Snapshots](./images/image-2.png)
 
-### Sorting
+### Filtering
 ![Query Results](./images/image-3.png)
 
-### Grouping and Joining
+### Sorting
 ![Features Demo](./images/image-4.png)
 
-### Joining 
+### Grouping and Joining
 ![Aggregated Queries](./images/image-5.png)
 
 ### Joining
