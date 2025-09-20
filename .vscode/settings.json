@@ -1,11 +1,11 @@
 {
   "sqltools.connections": [
     {
-      "name": "Week 5 Project",
+      "previewLimit": 50,
       "driver": "SQLite",
+      "name": "Week 5 Final Project",
       "group": "SQLite",
-      "database": "${workspaceFolder}/project.sqlite3",
-      "previewLimit": 50
+      "database": "${workspaceFolder:datafun-05-sql}/Project/project.sqlite3"
     }
   ],
   "sqltools.useNodeRuntime": true,
