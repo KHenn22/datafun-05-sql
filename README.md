@@ -57,7 +57,7 @@ python3 db01_setup.py
 
 ### Run queries and features
 ```
-# Run feature updates/deletes
+# Run an updated check for accuracy and deletes
 python3 db02_features.py
 
 # Run prepared queries and print results
@@ -66,11 +66,6 @@ python3 db03_queries.py
 
 ## Screenshots
 
-Add screenshots here to showcase the project UI/DB viewer and outputs. Example markdown for an image:
-
-```
-![DB Browser screenshot](screenshots/db_browser.png)
-![Query output screenshot](screenshots/query_output.png)
-```
-
-Create a `screenshots/` folder and add PNGs named as shown above, or update the paths to match your images.
+![Initial Setup using db01_setup.py with raw table data of airlines and crashes](image.png)
+![Check the airline name and location for correctness and then removed Crash 10](image-1.png)
+![Used db03_queries.py to query through aggregating, filtering, sorting, grouping, and joining airline and crash data](image-2.png)(image-3.png)(image-4.png)(image-5.png)(image-6.png)
