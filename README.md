@@ -41,7 +41,7 @@ chmod +x open_db.sh
 - Viewer used: SQLTools
 ```
 
-## Workflow Activity (9/20/2025)
+## Workflow Activity (2025-09-20)
 
 ### Setup and open
 ```
