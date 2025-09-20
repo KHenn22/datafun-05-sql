@@ -11,10 +11,6 @@ pip install -r requirements.txt
 ### Process
 ```
 ```
-
-### Notes
-```
-```
 ## Activity (2025-09-19)
 
 ### Commands run
