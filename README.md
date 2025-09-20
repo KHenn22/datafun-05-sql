@@ -66,6 +66,22 @@ python3 db03_queries.py
 
 ## Screenshots
 
-![Initial Setup using db01_setup.py with raw table data of airlines and crashes](image.png)
-![Check the airline name and location for correctness and then removed Crash 10](image-1.png)
-![Used db03_queries.py to query through aggregating, filtering, sorting, grouping, and joining airline and crash data](image-2.png)(image-3.png)(image-4.png)(image-5.png)(image-6.png)
+## Screenshots
+
+### Initial Setup
+![Initial Setup](./images/image-1.png)
+
+### Update/Delete Features
+![Update/Delete Features](./images/image-2.png)
+
+### Before/After Snapshots
+![Before/After Snapshots](./images/image-3.png)
+
+### Query Results
+![Query Results](./images/image-4.png)
+
+### Features Demo
+![Features Demo](./images/image-5.png)
+
+### Aggregated Queries
+![Aggregated Queries](./images/image-6.png)
