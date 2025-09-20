@@ -67,19 +67,22 @@ python3 db03_queries.py
 ## Screenshots
 
 ### Initial Setup
-![Initial Setup](./images/image-1.png)
+![Initial Setup](./images/image.png)
 
 ### Check Accuracy of Data and Delete Features
-![Update/Delete Features](./images/image-2.png)
+![Update/Delete Features](./images/image-1.png)
 
 ### Query Aggregation and Filter
-![Before/After Snapshots](./images/image-3.png)
+![Before/After Snapshots](./images/image-2.png)
 
 ### Sorting
-![Query Results](./images/image-4.png)
+![Query Results](./images/image-3.png)
 
 ### Grouping and Joining
-![Features Demo](./images/image-5.png)
+![Features Demo](./images/image-4.png)
 
 ### Joining 
-![Aggregated Queries](./images/image-6.png)
+![Aggregated Queries](./images/image-5.png)
+
+### Joining
+![test](./images/image-6.png)
