@@ -41,7 +41,7 @@ chmod +x open_db.sh
 - Viewer used: SQLTools
 ```
 
-## Workflow
+## Workflow 9/20/2025
 
 ### Setup and open
 ```
@@ -66,22 +66,20 @@ python3 db03_queries.py
 
 ## Screenshots
 
-## Screenshots
-
 ### Initial Setup
 ![Initial Setup](./images/image-1.png)
 
-### Update/Delete Features
+### Check Accuracy of Data and Delete Features
 ![Update/Delete Features](./images/image-2.png)
 
-### Before/After Snapshots
+### Query Aggregation and Filter
 ![Before/After Snapshots](./images/image-3.png)
 
-### Query Results
+### Sorting
 ![Query Results](./images/image-4.png)
 
-### Features Demo
+### Grouping and Joining
 ![Features Demo](./images/image-5.png)
 
-### Aggregated Queries
+### Joining 
 ![Aggregated Queries](./images/image-6.png)
