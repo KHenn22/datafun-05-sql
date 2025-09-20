@@ -72,7 +72,7 @@ python3 db03_queries.py
 ### Check Accuracy of Data and Delete Features
 ![Update/Delete Features](./images/image-1.png)
 
-### Query Aggregation and Filter
+### Query Aggregation
 ![Before/After Snapshots](./images/image-2.png)
 
 ### Filtering
