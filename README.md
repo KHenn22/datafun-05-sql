@@ -8,9 +8,6 @@ Northwest Data Analytics Fundamentals Week 5
 pip install -r requirements.txt
 ```
 
-### Process
-```
-```
 ## Activity (2025-09-19)
 
 ### Commands run
