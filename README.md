@@ -64,6 +64,43 @@ python3 db02_features.py
 python3 db03_queries.py
 ```
 
+## Schema
+
+The project uses a small relational schema with two tables: a parent `airlines` table and a child `crashes` table. Foreign keys are enforced via PRAGMA foreign_keys = ON.
+
+### airlines
+```
+airline_id   TEXT PRIMARY KEY
+name         TEXT NOT NULL
+founded_year INTEGER CHECK (founded_year BETWEEN 1900 AND 2100)
+country      TEXT
+```
+
+- airline_id: unique identifier for each airline (text-based to accommodate codes or UUIDs).
+- name: airline name, required.
+- founded_year: optional integer constrained to a reasonable range.
+- country: optional text for the country of origin.
+
+### crashes
+```
+crash_id   TEXT PRIMARY KEY
+flight_no  TEXT
+location   TEXT
+airline_id TEXT NOT NULL REFERENCES airlines(airline_id)
+year       INTEGER
+```
+
+- crash_id: unique identifier for each crash record.
+- flight_no: flight number associated with the crash (if known).
+- location: location description or airport.
+- airline_id: required foreign key referencing `airlines(airline_id)`.
+- year: integer year of the crash.
+
+### Rationale
+- Normalized design: airlines are modeled once in `airlines` and referenced from `crashes` to avoid duplication.
+- Foreign key constraint enforces referential integrity between crashes and airlines.
+- Simple checks (like `founded_year`) provide basic data validation at the DB level.
+
 ## Screenshots
 
 ### Initial Setup
